@@ -1,0 +1,33 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: seimo_es_parlamentu_palyginimas_2025.csv>index,valstybe,gyventojai_mln_2025_01_01_apvalinta,statutines_vietos_zemesniuose_ar_vieninteliuose_rumuose,gyventoju_tukst_vienai_vietai_apytiksliai,pastaba
+0,Malta,0.6,65.0,9.2,65 statutinių vietų; 2026 m. faktinis narių skaičius 79 dėl kompensacinių ir lyčių balanso mechanizmų
+1,Liuksemburgas,0.7,60.0,11.7,
+2,Kipras,1.0,80.0,12.5,80 statutinių vietų; 24 Turkijos kipriečių vietos šiuo metu laisvos
+3,Estija,1.4,101.0,13.9,
+4,Latvija,1.9,100.0,19.0,
+5,Lietuva,2.9,141.0,20.6,dabartinis 141 vietos modelis
+6,Slovėnija,2.1,90.0,23.3,
+7,Kroatija,3.9,151.0,25.8,
+8,Bulgarija,6.4,240.0,26.7,
+9,Suomija,5.6,200.0,28.0,
+10,Švedija,10.6,349.0,30.4,
+11,Airija,5.4,174.0,31.0,
+12,Danija,6.0,179.0,33.5,
+13,Graikija,10.4,300.0,34.7,
+14,Slovakija,5.4,150.0,36.0,
+15,Portugalija,10.7,230.0,46.5,
+16,Vengrija,9.5,199.0,47.7,
+17,Austrija,9.2,183.0,50.3,
+18,Čekija,10.9,200.0,54.5,
+19,Rumunija,19.0,331.0,57.4,
+20,Belgija,11.9,150.0,79.3,
+21,Lenkija,36.5,460.0,79.3,
+22,Prancūzija,68.9,577.0,119.4,
+23,Nyderlandai,18.0,150.0,120.0,
+24,Vokietija,83.6,630.0,132.7,
+25,Ispanija,49.1,350.0,140.3,
+26,Italija,58.9,400.0,147.2,
+27,Lietuva – hipotetinis scenarijus,2.9,120.0,24.2,ne faktinis parlamentas; tyrimo scenarijus
+28,Lietuva – hipotetinis scenarijus,2.9,110.0,26.4,ne faktinis parlamentas; tyrimo scenarijus
+29,population_source,https://ec.europa.eu/eurostat/documents/15216629/23964567/KS-01-26-035-EN-N.pdf,,,
+30,seats_source,https://data.ipu.org/data-explorer/?fields=country_code%2Ccountry_name%2Cchamber_code%2Cchamber_name%2Cstatutory_members_number&per_page=500&show_notes=false,,,
