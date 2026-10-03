@@ -8,7 +8,7 @@
 <meta property="og:title" content="Ne tik mažesnis Seimas. Kas pasikeistų, jei mandatą tektų užsidirbti regione?" />
 <meta property="og:description" content="141, 120 ir 110 vietų scenarijai, 5 regionai, asmeniniai balsai, vidinė partijų konkurencija ir Seimo darbingumas." />
 <meta property="og:type" content="website" />
-<title>Seimo dydis, regioninis atstovavimas ir rinkimų architektūra — v0.5</title>
+<title>Seimo dydis, regioninis atstovavimas ir rinkimų architektūra — v0.6</title>
 <style>
   :root{
     --bg:#f4f7fb; --card:#ffffff; --ink:#152235; --muted:#617083; --line:#dfe6ef;
@@ -131,7 +131,7 @@
 </head>
 <body id="top">
 <nav class="topnav"><div class="wrap"><a class="brand" href="#top">Seimo 110/120 tyrimas</a><div class="navlinks">
-<a href="#architecture">Modelis</a><a href="#laboratorija">Laboratorija</a><a href="#eu-comparison">ES kontekstas</a><a href="#referendumas">2019</a><a href="#capacity">Komitetai</a><a href="#metodika">Metodika</a><a href="#duomenys">Duomenys</a>
+<a href="#architecture">Modelis</a><a href="#laboratorija">Laboratorija</a><a href="#eu-comparison">ES kontekstas</a><a href="#referendumas">2019</a><a href="#capacity">Komitetai 17→11</a><a href="#metodika">Metodika</a><a href="#duomenys">Duomenys</a>
 </div></div></nav>
 <header>
   <div class="wrap">
@@ -265,25 +265,57 @@
     </div>
   </section>
 
-  <section id="capacity">
-    <h2>O ar mažesnis Seimas dar galėtų atlikti tą patį darbą?</h2>
-    <p class="lead">Rinkimų matematika nėra vienintelis apribojimas. Seimo narių skaičius turi būti vertinamas kartu su komitetų, komisijų, frakcijų ir parlamentinės kontrolės darbo krūviu.</p>
+    <section id="capacity">
+    <h2>Mažesnis Seimas nebūtinai reiškia tuos pačius 17 komitetų</h2>
+    <p class="lead">Jei mažinamas parlamentarų skaičius, prasminga kartu tikrinti ir pačią darbo architektūrą. Todėl white paper modelyje testuojame ne tik 110 / 120 narių, bet ir <strong>17 → 11 funkcinių komitetų</strong> konsolidaciją.</p>
+
     <div class="card">
       <div class="capacity-grid">
-        <div class="capacity-card"><strong>11</strong><span>komitetų buvo išvardyta 1994 m. Seimo statuto pradinėje redakcijoje</span></div>
-        <div class="capacity-card"><strong>17</strong><span>komitetų numato galiojantis 2026 m. Seimo statutas</span></div>
-        <div class="capacity-card"><strong>189</strong><span>komitetų narių vietos dabartinėje 2024–2028 m. sudėtyje; tai nėra 189 unikalūs žmonės</span></div>
-        <div class="capacity-card"><strong>10</strong><span>nuolatinių komisijų šiuo metu pateikia Seimo komitetų ir komisijų puslapis</span></div>
+        <div class="capacity-card"><strong>17</strong><span>dabartinių Seimo komitetų 2026 m.</span></div>
+        <div class="capacity-card"><strong>11</strong><span>white paper modelio funkcinių komitetų</span></div>
+        <div class="capacity-card"><strong>101 / 11</strong><span>Estija: Riigikogu nariai / nuolatiniai komitetai</span></div>
+        <div class="capacity-card"><strong>100</strong><span>Latvijos Saeima; platesnės sritys ir pakomitečiai</span></div>
       </div>
-      <p><span class="evidence-tag">Faktas</span> Pagal Statutą kiekvienas Seimo narys, išskyrus Seimo Pirmininką ir Ministrą Pirmininką, turi būti kurio nors komiteto narys. Paprastai Seimo narys gali būti tik vieno komiteto narys; išimtys taikomos Europos reikalų, Ateities ir Energetikos ir darnios plėtros komitetams.</p>
-      <p><span class="hypothesis-tag">Mechaninis streso testas</span> Jei dabartinės 189 komitetų narių vietos būtų išlaikytos nekeičiant komitetų struktūros, vienam parlamentarui tenkančių komitetų vietų tankis didėtų vien todėl, kad parlamentarų būtų mažiau:</p>
+
+      <div class="callout"><strong>Modelio logika:</strong> ne mėginti 110 žmonių sutalpinti į dabartinę 17 komitetų struktūrą, o pergrupuoti artimas funkcijas. Tai institucinis scenarijus, ne teiginys, kad būtent toks 11 komitetų sąrašas yra vienintelis galimas.</div>
+
+      <div class="scroll">
+        <table>
+          <thead><tr><th>#</th><th>11 funkcinių komitetų modelis</th><th>Ką konsoliduoja iš dabartinės struktūros</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td>Biudžeto ir finansų</td><td>Biudžeto ir finansų</td></tr>
+            <tr><td>2</td><td>Viešojo audito ir atskaitomybės</td><td>Audito</td></tr>
+            <tr><td>3</td><td>Ekonomikos, energetikos, transporto ir inovacijų</td><td>Ekonomikos ir inovacijų + Energetikos ir darnios plėtros</td></tr>
+            <tr><td>4</td><td>Aplinkos, žemės ūkio ir teritorinės plėtros</td><td>Aplinkos apsaugos + Kaimo reikalų</td></tr>
+            <tr><td>5</td><td>Socialinės politikos, sveikatos ir demografijos</td><td>Socialinių reikalų ir darbo + Sveikatos reikalų</td></tr>
+            <tr><td>6</td><td>Švietimo, mokslo, kultūros ir sporto</td><td>Švietimo ir mokslo + Kultūros</td></tr>
+            <tr><td>7</td><td>Teisės ir žmogaus teisių</td><td>Teisės ir teisėtvarkos + Žmogaus teisių</td></tr>
+            <tr><td>8</td><td>Nacionalinio saugumo ir gynybos</td><td>Nacionalinio saugumo ir gynybos</td></tr>
+            <tr><td>9</td><td>Užsienio ir Europos reikalų</td><td>Užsienio reikalų + Europos reikalų</td></tr>
+            <tr><td>10</td><td>Valstybės valdymo ir savivaldos</td><td>Valstybės valdymo ir savivaldybių</td></tr>
+            <tr><td>11</td><td>Ateities, skaitmenizavimo ir strateginės raidos</td><td>Ateities; horizontalios skaitmenizavimo ir ilgalaikės raidos funkcijos</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 style="margin-top:24px">Ką duoda konsolidacija mažesniam Seimui?</h3>
+      <p class="small">Žemiau – tik mechaninis dydžio orientyras: Seimo narių skaičius padalytas iš nuolatinių komitetų skaičiaus. Tai nėra faktinė komitetų sudėtis ar darbo krūvio prognozė.</p>
       <div class="load-table">
-        <div class="head">Modelis</div><div class="head">141</div><div class="head">120</div><div class="head">110</div>
-        <div>Komitetų vietos / Seimo nariui</div><div class="value">1,34</div><div class="value">1,58</div><div class="value">1,72</div>
-        <div>Pokytis nuo dabartinio dydžio</div><div>bazė</div><div class="value">+17,5 %</div><div class="value">+28,2 %</div>
+        <div class="head">Architektūra</div><div class="head">141 narys</div><div class="head">120 narių</div><div class="head">110 narių</div>
+        <div>Dabartiniai 17 komitetų</div><div class="value">8,3</div><div class="value">7,1</div><div class="value">6,5</div>
+        <div>Modeliuojami 11 komitetų</div><div class="value">12,8</div><div class="value">10,9</div><div class="value">10,0</div>
       </div>
-      <div class="callout"><strong>Tai nėra prognozė, kad darbo krūvis padidėtų būtent tiek.</strong> Mažesnis Seimas galėtų keisti komitetų narių skaičių, komisijų struktūrą ar darbo organizavimą. Tačiau skaičius parodo ribą, kurios negalima ignoruoti: mažinant parlamentą reikia kartu spręsti jo vidinę architektūrą.</div>
-      <p class="small">Dabartiniame Seimo puslapyje taip pat nurodoma 10 nuolatinių komisijų, turinčių iš viso 105 narių vietas. Narystės komitetuose ir komisijose persidengia, todėl 189 + 105 nėra unikalių parlamentarų skaičius ir neturi būti taip interpretuojamas.</p>
+
+      <p style="margin-top:20px"><span class="evidence-tag">Lietuva dabar</span> Galiojantis Statutas išvardija 17 komitetų. Įprasti komitetai sudaromi iš 7–14 narių; Europos reikalų, Ateities bei Energetikos ir darnios plėtros komitetams taikoma kitokia sudarymo logika, o Seimo narys paprastai gali būti tik vieno komiteto narys.</p>
+
+      <div class="trade" style="margin-top:16px">
+        <div class="card"><h3>Estija – mažo parlamento orientyras</h3><p>101 nario Riigikogu turi 11 nuolatinių komitetų. Riigikogu narys priklauso vienam nuolatiniam komitetui, papildomai gali dirbti ES reikalų ar specialiuose komitetuose. Tai rodo, kad ~100 narių parlamentas gali veikti su maždaug 11 pagrindinių komitetų architektūra.</p></div>
+        <div class="card"><h3>Latvija – platesnės funkcijos</h3><p>100 narių Saeimoje kai kurios sritys sujungtos plačiau: veikia Ekonomikos, žemės ūkio, aplinkos ir regioninės politikos komitetas, o Socialinių ir darbo reikalų komitetas turi Visuomenės sveikatos pakomitetį. Vienas narys gali dirbti ne daugiau kaip dviejuose nuolatiniuose komitetuose.</p></div>
+        <div class="card"><h3>Suomija – ateities funkcijos neprarasti</h3><p>Suomijos parlamentas Ateities komitetą įsteigė 1993 m. Todėl konsoliduojant komitetus ilgalaikės raidos funkcijos nebūtina panaikinti – ją galima išlaikyti kaip aiškią strateginę kompetenciją.</p></div>
+        <div class="card"><h3>Komisijos – atskiras sluoksnis</h3><p>11 komitetų modelis automatiškai nereiškia nuolatinių, laikinųjų ar tyrimo komisijų panaikinimo. Jų poreikis ir narių apkrova turi būti vertinami atskirai po pagrindinių komitetų architektūros.</p></div>
+      </div>
+
+      <div class="callout"><strong>Tarpinė išvada:</strong> 110 ar 120 narių Seimo darbingumo klausimo nereikėtų vertinti laikant 17 komitetų skaičių nekintamu. 11 funkcinių komitetų scenarijus parodo alternatyvą, kurioje mažesnis parlamentarų skaičius derinamas su platesnėmis komitetų kompetencijomis ir pakomitečių naudojimu.</div>
     </div>
   </section>
 
@@ -341,13 +373,17 @@
         <li><a href="https://data.ipu.org/data-explorer/?fields=country_code%2Ccountry_name%2Cchamber_code%2Cchamber_name%2Cstatutory_members_number&per_page=500&show_notes=false">IPU Parline · statutory members</a> — ES parlamentų statutinis narių skaičius; dviejų rūmų šalyse naudojami žemieji rūmai.</li>
         <li><a href="https://data.ipu.org/parliament/CY/CY-LC01/">IPU · Kipras</a> ir <a href="https://data.ipu.org/parliament/MT/MT-LC01/">IPU · Malta</a> — specialių vietų skaičiaus mechanizmų paaiškinimai.</li>
         <li><a href="https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.5734/asr">Seimo statutas</a> — komitetų sąrašas, Seimo narių dalyvavimo komitetuose taisyklės ir komisijų sudarymo principai.</li>
+        <li><a href="https://www.riigikogu.ee/en/introduction-and-history/introduction/structure-of-riigikogu/">Estijos Riigikogu struktūra</a> — 101 narys, 11 nuolatinių komitetų ir vieno pagrindinio nuolatinio komiteto taisyklė.</li>
+        <li><a href="https://www.saeima.lv/en/14th-saeima/committees-and-subcommittees-14">Latvijos Saeimos komitetai ir pakomitečiai</a> — platesni funkciniai komitetai ir pakomitečių praktika.</li>
+        <li><a href="https://www.saeima.lv/en/14th-saeima/committees-and-subcommittees/committee-formation-14/">Latvijos komitetų sudarymo taisyklės</a> — iki dviejų nuolatinių komitetų vienam parlamentarui.</li>
+        <li><a href="https://eduskunta.fi/en/press-releases/the-committees-of-the-future-to-cooperate-regularly">Suomijos Parlamento Ateities komitetas</a> — ilgalaikės ateities politikos komitetas veikia nuo 1993 m.</li>
         <li><a href="https://www.lrs.lt/sip/portal.show?p_r=35733&amp;printVersion=1">Seimo komitetų ir komisijų veikla</a> — 2024–2028 m. komitetų ir nuolatinių komisijų sudėtys bei narių skaičiai.</li>
 
       </ul>
     </div>
   </section>
 </main>
-<footer><div class="wrap">Tyrimo release-candidate versija v0.5. Tikslas — parodyti institucinių konstrukcijų efektus ir kompromisus, o ne rekomenduoti politinį pasirinkimą ar vertinti konkrečias partijas.</div></footer>
+<footer><div class="wrap">Tyrimo viešo preview versija v0.6. Tikslas — parodyti institucinių konstrukcijų efektus ir kompromisus, o ne rekomenduoti politinį pasirinkimą ar vertinti konkrečias partijas.</div></footer>
 <script>
 const EU = [{"country": "Malta", "population_m": 0.6, "seats": 65, "ratio_k": 9.2, "special": "special"}, {"country": "Liuksemburgas", "population_m": 0.7, "seats": 60, "ratio_k": 11.7, "special": ""}, {"country": "Kipras", "population_m": 1.0, "seats": 80, "ratio_k": 12.5, "special": "special"}, {"country": "Estija", "population_m": 1.4, "seats": 101, "ratio_k": 13.9, "special": ""}, {"country": "Latvija", "population_m": 1.9, "seats": 100, "ratio_k": 19.0, "special": ""}, {"country": "Lietuva", "population_m": 2.9, "seats": 141, "ratio_k": 20.6, "special": "lt"}, {"country": "Slovėnija", "population_m": 2.1, "seats": 90, "ratio_k": 23.3, "special": ""}, {"country": "Kroatija", "population_m": 3.9, "seats": 151, "ratio_k": 25.8, "special": ""}, {"country": "Bulgarija", "population_m": 6.4, "seats": 240, "ratio_k": 26.7, "special": ""}, {"country": "Suomija", "population_m": 5.6, "seats": 200, "ratio_k": 28.0, "special": ""}, {"country": "Švedija", "population_m": 10.6, "seats": 349, "ratio_k": 30.4, "special": ""}, {"country": "Airija", "population_m": 5.4, "seats": 174, "ratio_k": 31.0, "special": ""}, {"country": "Danija", "population_m": 6.0, "seats": 179, "ratio_k": 33.5, "special": ""}, {"country": "Graikija", "population_m": 10.4, "seats": 300, "ratio_k": 34.7, "special": ""}, {"country": "Slovakija", "population_m": 5.4, "seats": 150, "ratio_k": 36.0, "special": ""}, {"country": "Portugalija", "population_m": 10.7, "seats": 230, "ratio_k": 46.5, "special": ""}, {"country": "Vengrija", "population_m": 9.5, "seats": 199, "ratio_k": 47.7, "special": ""}, {"country": "Austrija", "population_m": 9.2, "seats": 183, "ratio_k": 50.3, "special": ""}, {"country": "Čekija", "population_m": 10.9, "seats": 200, "ratio_k": 54.5, "special": ""}, {"country": "Rumunija", "population_m": 19.0, "seats": 331, "ratio_k": 57.4, "special": ""}, {"country": "Belgija", "population_m": 11.9, "seats": 150, "ratio_k": 79.3, "special": ""}, {"country": "Lenkija", "population_m": 36.5, "seats": 460, "ratio_k": 79.3, "special": ""}, {"country": "Prancūzija", "population_m": 68.9, "seats": 577, "ratio_k": 119.4, "special": ""}, {"country": "Nyderlandai", "population_m": 18.0, "seats": 150, "ratio_k": 120.0, "special": ""}, {"country": "Vokietija", "population_m": 83.6, "seats": 630, "ratio_k": 132.7, "special": ""}, {"country": "Ispanija", "population_m": 49.1, "seats": 350, "ratio_k": 140.3, "special": ""}, {"country": "Italija", "population_m": 58.9, "seats": 400, "ratio_k": 147.2, "special": ""}];
 const DATA = {
