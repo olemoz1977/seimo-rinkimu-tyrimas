@@ -1,0 +1,225 @@
+{
+  "version": "0.2",
+  "date": "2026-10-03",
+  "note": "Research UI data. 2016 regional apportionment remains PROVISIONAL; 2020 and 2024 PASS.",
+  "models": {
+    "110": {
+      "single_member": 55,
+      "regional": 55
+    },
+    "120": {
+      "single_member": 60,
+      "regional": 60
+    }
+  },
+  "regional_method": "Hare quota + largest remainders by registered-voter base",
+  "party_method": "D’Hondt within each of 5 regions",
+  "main_threshold": "none",
+  "sensitivity_threshold": "national 5%",
+  "diaspora": "not assigned to any of 5 territorial regions",
+  "status": {
+    "2016": "PROVISIONAL",
+    "2020": "PASS",
+    "2024": "PASS"
+  },
+  "eu_comparison": {
+    "population_reference": "Eurostat, population 1 Jan 2025, publication rounded to 0.1 million",
+    "chamber_reference": "IPU Parline statutory members, unicameral or lower chamber",
+    "lithuania_scenarios": {
+      "141": 20.6,
+      "120": 24.2,
+      "110": 26.4
+    },
+    "countries": [
+      {
+        "country": "Malta",
+        "population_m": 0.6,
+        "seats": 65,
+        "inhabitants_per_seat_k_approx": 9.2,
+        "note": "65 statutinių vietų; 2026 m. faktinis narių skaičius 79 dėl kompensacinių ir lyčių balanso mechanizmų"
+      },
+      {
+        "country": "Liuksemburgas",
+        "population_m": 0.7,
+        "seats": 60,
+        "inhabitants_per_seat_k_approx": 11.7,
+        "note": ""
+      },
+      {
+        "country": "Kipras",
+        "population_m": 1.0,
+        "seats": 80,
+        "inhabitants_per_seat_k_approx": 12.5,
+        "note": "80 statutinių vietų; 24 Turkijos kipriečių vietos šiuo metu laisvos"
+      },
+      {
+        "country": "Estija",
+        "population_m": 1.4,
+        "seats": 101,
+        "inhabitants_per_seat_k_approx": 13.9,
+        "note": ""
+      },
+      {
+        "country": "Latvija",
+        "population_m": 1.9,
+        "seats": 100,
+        "inhabitants_per_seat_k_approx": 19.0,
+        "note": ""
+      },
+      {
+        "country": "Lietuva",
+        "population_m": 2.9,
+        "seats": 141,
+        "inhabitants_per_seat_k_approx": 20.6,
+        "note": "dabartinis 141 vietos modelis"
+      },
+      {
+        "country": "Slovėnija",
+        "population_m": 2.1,
+        "seats": 90,
+        "inhabitants_per_seat_k_approx": 23.3,
+        "note": ""
+      },
+      {
+        "country": "Kroatija",
+        "population_m": 3.9,
+        "seats": 151,
+        "inhabitants_per_seat_k_approx": 25.8,
+        "note": ""
+      },
+      {
+        "country": "Bulgarija",
+        "population_m": 6.4,
+        "seats": 240,
+        "inhabitants_per_seat_k_approx": 26.7,
+        "note": ""
+      },
+      {
+        "country": "Suomija",
+        "population_m": 5.6,
+        "seats": 200,
+        "inhabitants_per_seat_k_approx": 28.0,
+        "note": ""
+      },
+      {
+        "country": "Švedija",
+        "population_m": 10.6,
+        "seats": 349,
+        "inhabitants_per_seat_k_approx": 30.4,
+        "note": ""
+      },
+      {
+        "country": "Airija",
+        "population_m": 5.4,
+        "seats": 174,
+        "inhabitants_per_seat_k_approx": 31.0,
+        "note": ""
+      },
+      {
+        "country": "Danija",
+        "population_m": 6.0,
+        "seats": 179,
+        "inhabitants_per_seat_k_approx": 33.5,
+        "note": ""
+      },
+      {
+        "country": "Graikija",
+        "population_m": 10.4,
+        "seats": 300,
+        "inhabitants_per_seat_k_approx": 34.7,
+        "note": ""
+      },
+      {
+        "country": "Slovakija",
+        "population_m": 5.4,
+        "seats": 150,
+        "inhabitants_per_seat_k_approx": 36.0,
+        "note": ""
+      },
+      {
+        "country": "Portugalija",
+        "population_m": 10.7,
+        "seats": 230,
+        "inhabitants_per_seat_k_approx": 46.5,
+        "note": ""
+      },
+      {
+        "country": "Vengrija",
+        "population_m": 9.5,
+        "seats": 199,
+        "inhabitants_per_seat_k_approx": 47.7,
+        "note": ""
+      },
+      {
+        "country": "Austrija",
+        "population_m": 9.2,
+        "seats": 183,
+        "inhabitants_per_seat_k_approx": 50.3,
+        "note": ""
+      },
+      {
+        "country": "Čekija",
+        "population_m": 10.9,
+        "seats": 200,
+        "inhabitants_per_seat_k_approx": 54.5,
+        "note": ""
+      },
+      {
+        "country": "Rumunija",
+        "population_m": 19.0,
+        "seats": 331,
+        "inhabitants_per_seat_k_approx": 57.4,
+        "note": ""
+      },
+      {
+        "country": "Belgija",
+        "population_m": 11.9,
+        "seats": 150,
+        "inhabitants_per_seat_k_approx": 79.3,
+        "note": ""
+      },
+      {
+        "country": "Lenkija",
+        "population_m": 36.5,
+        "seats": 460,
+        "inhabitants_per_seat_k_approx": 79.3,
+        "note": ""
+      },
+      {
+        "country": "Prancūzija",
+        "population_m": 68.9,
+        "seats": 577,
+        "inhabitants_per_seat_k_approx": 119.4,
+        "note": ""
+      },
+      {
+        "country": "Nyderlandai",
+        "population_m": 18.0,
+        "seats": 150,
+        "inhabitants_per_seat_k_approx": 120.0,
+        "note": ""
+      },
+      {
+        "country": "Vokietija",
+        "population_m": 83.6,
+        "seats": 630,
+        "inhabitants_per_seat_k_approx": 132.7,
+        "note": ""
+      },
+      {
+        "country": "Ispanija",
+        "population_m": 49.1,
+        "seats": 350,
+        "inhabitants_per_seat_k_approx": 140.3,
+        "note": ""
+      },
+      {
+        "country": "Italija",
+        "population_m": 58.9,
+        "seats": 400,
+        "inhabitants_per_seat_k_approx": 147.2,
+        "note": ""
+      }
+    ]
+  }
+}
