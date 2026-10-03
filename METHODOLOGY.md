@@ -33,3 +33,29 @@ Tai balsai už sąrašą, kuris rinkėjo regioninėje daugiamandatėje negavo n�
 
 ## Darbingumo streso testas
 Komitetų ir komisijų blokas nėra rinkimų rezultato prognozė. Jis tikrina, ar mažesnio parlamento vidinė darbo architektūra turėtų būti peržiūrima kartu su narių skaičiumi.
+
+
+## Komitetų architektūros scenarijus
+
+Mažesnio Seimo darbingumo testas nelaiko dabartinės 17 komitetų struktūros nekintama. White paper scenarijuje tikrinama 11 funkcinių komitetų konsolidacija:
+
+1. Biudžeto ir finansų.
+2. Viešojo audito ir atskaitomybės.
+3. Ekonomikos, energetikos, transporto ir inovacijų.
+4. Aplinkos, žemės ūkio ir teritorinės plėtros.
+5. Socialinės politikos, sveikatos ir demografijos.
+6. Švietimo, mokslo, kultūros ir sporto.
+7. Teisės ir žmogaus teisių.
+8. Nacionalinio saugumo ir gynybos.
+9. Užsienio ir Europos reikalų.
+10. Valstybės valdymo ir savivaldos.
+11. Ateities, skaitmenizavimo ir strateginės raidos.
+
+Tai nėra normatyvinė rekomendacija ar galutinis Statuto projektas. Tai institucinės architektūros scenarijus, skirtas patikrinti, ar mažesnis 110 / 120 narių Seimas galėtų išlaikyti pakankamo dydžio pagrindinius komitetus, jei artimos funkcijos būtų konsoliduotos.
+
+Palyginamieji atspirties taškai:
+- Estijos 101 nario Riigikogu turi 11 nuolatinių komitetų; narys priklauso vienam nuolatiniam komitetui, be galimos narystės ES reikalų ar kituose specialiuose komitetuose.
+- Latvijos 100 narių Saeima naudoja platesnius funkcinius komitetus ir pakomitečius; narys gali dirbti iki dviejų nuolatinių komitetų.
+- Suomijos Parlamento Ateities komitetas veikia nuo 1993 m.; tai naudojama kaip argumentas konsoliduojant neprarasti ilgalaikės strateginės raidos funkcijos.
+
+11 komitetų scenarijus automatiškai nereiškia komisijų panaikinimo. Nuolatinių, laikinųjų ir tyrimo komisijų poreikis bei narių apkrova yra atskiras projekto sluoksnis.
